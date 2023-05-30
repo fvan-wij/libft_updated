@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   libft.h                                           :+:    :+:             */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fvan-wij <fvan-wij@student.codam.nl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 14:46:37 by fvan-wij          #+#    #+#             */
-/*   Updated: 2023/03/14 17:36:49 by fvan-wij         ###   ########.fr       */
+/*   Updated: 2023/05/30 15:58:45 by fvan-wij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,5 +95,9 @@ int				ft_printspecifier(int specifier, va_list args);
 // CUSTOM FUNCTIONS
 char			*ft_strjoin_and_free(char *s1, char *s2);
 char			**ft_split_nl(char const *s, char c);
+int				ft_word_counter_quotations(char const *s, char c);
+char			**ft_split_quotations(char const *s, char c);
+int				ft_find_envp_path_index(char *envp[]);
+void			ft_del_2d(char **arr);
 
 #endif

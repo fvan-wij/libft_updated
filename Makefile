@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
+#    Makefile                                          :+:    :+:              #
 #                                                     +:+ +:+         +:+      #
 #    By: fvan-wij <fvan-wij@student.codam.nl>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/01 18:08:39 by fvan-wij          #+#    #+#              #
-#    Updated: 2023/03/14 17:45:31 by fvan-wij         ###   ########.fr        #
+#    Updated: 2023/05/30 15:59:04 by fvan-wij      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,6 +74,11 @@ SRC			:=	ft_atoi.c \
 			ft_strjoin_and_free.c \
 			ft_split_nl.c \
 			ft_atoh.c \
+			ft_word_counter_quotations.c \
+			ft_split_quotations.c \
+			ft_find_envp_path_index.c \
+			ft_del_2d.c \
+
 			
 # Regular Colors #############################################
 Black		= "\033[0;30m"		# Black
